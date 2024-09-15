@@ -33,7 +33,7 @@ const Assurances = () => {
           <option value="">Sélectionnez une compagnie</option>
           <option value="MSC">MSC</option>
           <option value="Costa">Costa</option>
-          <option value="Notre">Notre Assurance</option>
+          <option value="Notre">Présence assistance tourisme</option>
         </select>
       </div>
 
