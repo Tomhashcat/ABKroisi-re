@@ -1,0 +1,42 @@
+{
+  "Fantastica": {
+    "description": "La formule Fantastica chez Costa offre des prestations de haute qualité avec des avantages exclusifs, tels qu'un meilleur choix de cabines et des accès privilégiés aux restaurants.",
+    "features": [
+      "Choix de cabine supérieur",
+      "Accès prioritaire aux restaurants",
+      "Petit-déjeuner en cabine",
+      "Avantages pour les familles",
+      "Priorité pour les excursions"
+    ]
+  },
+  "Bella": {
+    "description": "Bella est la formule idéale pour une croisière agréable à un prix compétitif, offrant des prestations essentielles et une flexibilité dans la réservation.",
+    "features": [
+      "Cabine standard",
+      "Accès au restaurant principal",
+      "Flexibilité de réservation",
+      "Accès aux divertissements",
+      "Option de forfaits additionnels"
+    ]
+  },
+  "Aurea": {
+    "description": "La formule Aurea vous propose une expérience de luxe avec accès au spa, cabines avec balcons privés, et un forfait boissons inclus.",
+    "features": [
+      "Accès au spa",
+      "Cabines avec balcons",
+      "Forfait boissons inclus",
+      "Accès prioritaire aux restaurants",
+      "Service de conciergerie"
+    ]
+  },
+  "Yacht Club": {
+    "description": "Yacht Club est la formule la plus exclusive, offrant des espaces privés, un service de majordome, et des restaurants gastronomiques.",
+    "features": [
+      "Espaces privés",
+      "Service de majordome",
+      "Restaurants gastronomiques",
+      "Salon privé",
+      "Transfert en voiture privée"
+    ]
+  }
+}

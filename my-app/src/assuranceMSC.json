@@ -1,0 +1,24 @@
+{
+  "Assurance MSC Standard": {
+    "description": "Assurance de base couvrant les incidents courants pendant la croisière.",
+    "coverage": [
+      "Assistance médicale d'urgence",
+      "Annulation de voyage",
+      "Perte de bagages",
+      "Retard de vol"
+    ],
+    "prix": "À partir de 50€ par personne"
+  },
+  "Assurance MSC Premium": {
+    "description": "Assurance améliorée offrant une couverture étendue avec des avantages supplémentaires.",
+    "coverage": [
+      "Assistance médicale d'urgence",
+      "Annulation de voyage",
+      "Perte de bagages",
+      "Retard de vol",
+      "Rapatriement sanitaire",
+      "Assurance responsabilité civile"
+    ],
+    "prix": "À partir de 100€ par personne"
+  }
+}

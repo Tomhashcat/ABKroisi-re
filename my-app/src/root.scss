@@ -1,0 +1,60 @@
+// Variables pour faciliter la personnalisation
+$primary-color: #007bff;
+$secondary-color: #f8f9fa;
+$font-family: 'Arial', sans-serif;
+
+// Style global pour le body
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+  background-color: $secondary-color;
+}
+
+// Style pour la div #root
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: $secondary-color;
+  color: #333;
+}
+
+// Style pour le contenu principal
+.main-content {
+  width: 100%;
+  max-width: 1200px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+
+  // Responsivité pour les petits écrans
+  @media (max-width: 768px) {
+    padding: 10px;
+  }
+}
+
+// Style pour les boutons
+button {
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+
+  &:active {
+    background-color: darken($primary-color, 15%);
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "My Cruise": {
+    "description": "Un tarif de base offrant uniquement la croisière sans services supplémentaires.",
+    "features": [
+      "Cabine standard",
+      "Accès au restaurant principal",
+      "Pas de forfait boissons",
+      "Accès aux divertissements de base",
+      "Tarifs réduits pour les enfants",
+      "Pas d'accès aux espaces privés"
+    ]
+  },
+  "All Inclusive": {
+    "description": "Inclut la croisière et un forfait boissons ainsi que d'autres services basiques.",
+    "features": [
+      "Cabine standard ou supérieure",
+      "Accès au restaurant principal",
+      "Forfait boissons inclus",
+      "Accès aux divertissements",
+      "Tarifs réduits pour les enfants",
+      "Accès à certaines activités en bord de mer",
+      "Accès à un espace détente",
+      "Wi-Fi inclus dans certaines zones"
+    ]
+  },
+  "Super All Inclusive": {
+    "description": "Inclut la croisière, un forfait boissons premium et d'autres services VIP.",
+    "features": [
+      "Cabine supérieure avec balcon",
+      "Accès aux restaurants spécialisés",
+      "Forfait boissons premium inclus",
+      "Accès illimité au spa et bien-être",
+      "Accès prioritaire aux divertissements et activités",
+      "Service de conciergerie",
+      "Tarifs réduits pour les excursions",
+      "Transfert privé au port",
+      "Wi-Fi illimité"
+    ]
+  }
+}

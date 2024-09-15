@@ -1,0 +1,24 @@
+{
+    "Assurance Costa Basic": {
+      "description": "Assurance de base incluant une couverture pour les événements imprévus pendant la croisière.",
+      "coverage": [
+        "Assistance médicale d'urgence",
+        "Annulation de voyage",
+        "Perte de bagages"
+      ],
+      "prix": "À partir de 55€ par personne"
+    },
+    "Assurance Costa Extra": {
+      "description": "Assurance étendue avec une couverture complète pour une tranquillité d'esprit accrue.",
+      "coverage": [
+        "Assistance médicale d'urgence",
+        "Annulation de voyage",
+        "Perte de bagages",
+        "Retard de vol",
+        "Rapatriement sanitaire",
+        "Assurance responsabilité civile"
+      ],
+      "prix": "À partir de 120€ par personne"
+    }
+  }
+  

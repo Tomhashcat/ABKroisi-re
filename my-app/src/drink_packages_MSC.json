@@ -1,0 +1,43 @@
+{
+    
+    "MSC": {
+      "link":"https://www.msccroisieres.fr/vie-a-bord/restauration-et-boissons/forfaits-boissons",
+      " Easy": {
+        "description": "Sélection de boissons non alcoolisées et quelques boissons alcoolisées de base.",
+        "inclusions": [
+          "Boissons non alcoolisées",
+          "Bières",
+          "Vins au verre",
+          "Spiritueux de base"
+        ],
+        "prix": "À partir de 20€ par jour"
+      },
+      "EASY plus": {
+        "description": "Accès à un large choix de boissons alcoolisées, y compris les marques premium et les cocktails.",
+        "inclusions": [
+          "Boissons non alcoolisées",
+          "Vins de haute qualité",
+          "Spiritueux de marque",
+          "Cocktails sophistiqués","Une remise de 10 % sur les bouteilles de vin achetées à bord"
+        ],
+        "prix": "À partir de 40€ par jour"
+      },
+      "PREMIUM EXTRA": {
+        "description": "Personnalisez votre forfait avec des options de boissons à la carte, incluant des réductions sur une sélection étendue.",
+        "inclusions": [
+          "Cocktails classiques ou internationaux sélectionnés",
+"Cocktails sans alcool et boissons sans alcool",
+"Cocktails de fruits frais et protéinés","Spiritueux", "liqueurs et sirops de marques premium",
+"Sélection de vins au verre",
+"Champagnes au verre",
+"Large choix de bières pression et en bouteille",
+"Eau minérale en bouteille",
+"Large choix de boissons chaudes classiques et de spécialités",
+"Une remise de 25 % sur les bouteilles de vin et de Champagne achetées à bord",
+"Les frais de service sur les boissons sont inclus"
+        ],
+        "prix": "À partir de 35€ par jour"
+      }
+    }
+  }
+  

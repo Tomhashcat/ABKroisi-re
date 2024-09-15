@@ -1,0 +1,159 @@
+/* Global Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 20px;width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+}
+
+/* Main content container */
+.main-content {
+  width: 100%;
+  max-width: 1200px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-bottom: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.main-content:hover {
+  transform: translateY(-5px);
+}
+
+/* Headings */
+h1 {
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 22px;
+  background-color: red;
+  color: white;
+  padding: 12px 15px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+/* Paragraph and Lists */
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Hide content initially */
+.package-card p, .package-card ul,
+.ambiance-card p, .ambiance-card ul,
+.assurance-card p, .assurance-card ul {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+/* Show content on hover */
+.package-card:hover p, .package-card:hover ul,
+.ambiance-card:hover p, .ambiance-card:hover ul,
+.assurance-card:hover p, .assurance-card:hover ul {
+  max-height: 200px; /* Adjust according to the height of the content */
+  padding: 10px;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 15px;
+  }
+
+  h3 {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+
+  li {
+    font-size: 14px;
+  }
+}
+
+/* Assurance Cards */
+.assurance-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 20px;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  margin-bottom: 25px;
+}
+
+.assurance-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.assurance-title {
+  font-size: 22px;
+  background-color: red;
+  color: white;
+  padding: 12px 15px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.assurance-description {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.assurances-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

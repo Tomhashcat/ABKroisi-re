@@ -1,0 +1,27 @@
+{
+  "Costa": {
+    "link": "https://www.costacroisieres.fr/experience/forfaits-boissons.html",
+    "MY DRINKS": {
+      "description": "N'est pas inclut dans MY CRUISE !! Inclut une sélection de boissons non alcoolisées, ainsi que des boissons alcoolisées standard.",
+      "inclusions": [
+        "Boissons non alcoolisées",
+        "Bières",
+        "Vins de maison",
+        "Spiritueux standards"
+      ],
+      "prix": "À partir de 31,15€ par jour"
+    },
+    "MY DRINKS PLUS": {
+      "description": "Comprend une large sélection de boissons alcoolisées premium et de cocktails.",
+      "inclusions": [
+        "Boissons non alcoolisées",
+        "Bouteilles d’eau de 50 cl SAN BENEDETTO EN ILLIMITÉ",
+        "Vins premium",
+        "Spiritueux de marque",
+        "Cocktails élaborés",
+        "Tous les cocktails à la carte aux bars et les cocktails moléculaires"
+      ],
+      "prix": "À partir de 46€ par jour"
+    }
+  }
+}

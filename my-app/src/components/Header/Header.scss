@@ -1,0 +1,19 @@
+header {
+
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        margin: 0 auto;
+        padding: 0 10px;
+
+        img {
+            width: 31%;
+        }
+
+    }
+}
