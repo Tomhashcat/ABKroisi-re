@@ -36,6 +36,10 @@
       "last 1 safari version"
     ]
   },
+  "engines": {
+  "node": "14.x" 
+},
+
   "devDependencies": {
     "css-loader": "^7.1.2",
     "sass": "^1.78.0",
