@@ -4,23 +4,28 @@
     "MY DRINKS": {
       "description": "N'est pas inclut dans MY CRUISE !! Inclut une sélection de boissons non alcoolisées, ainsi que des boissons alcoolisées standard.",
       "inclusions": [
-        "Boissons non alcoolisées",
-        "Bières",
-        "Vins de maison",
-        "Spiritueux standards"
+        "Sodas (Coca-Cola, Fanta, Sprite, etc.)",
+        "Jus de fruits",
+        "Thé glacé",     "Bières pression locales",
+            "Sélection de bières en bouteille","Vin rouge de maison",
+            "Vin blanc de maison",
+            "Vin rosé", "Whisky standard",
+            "Vodka standard",
+            "Gin standard"
       ],
       "prix": "À partir de 31,15€ par jour"
     },
     "MY DRINKS PLUS": {
       "description": "Comprend une large sélection de boissons alcoolisées premium et de cocktails.",
       "inclusions": [
-        "Boissons non alcoolisées",
-        "Bouteilles d’eau de 50 cl SAN BENEDETTO EN ILLIMITÉ",
-        "Vins premium",
-        "Spiritueux de marque",
-        "Cocktails élaborés",
-        "Tous les cocktails à la carte aux bars et les cocktails moléculaires"
-      ],
+        "Sodas illimités",
+        "Thé glacé",
+        "Jus de fruits frais", "Eau minérale San Benedetto en bouteille de 50 cl (illimité)", "Sélection de vins rouges, blancs et rosés premium",
+        "Vins mousseux", "Whisky de marque",
+        "Vodka premium",
+        "Gin premium",  "Cocktails classiques (Mojito, Margarita, etc.)",
+        "Cocktails signature",
+        "Cocktails moléculaires"],
       "prix": "À partir de 46€ par jour"
     }
   }
