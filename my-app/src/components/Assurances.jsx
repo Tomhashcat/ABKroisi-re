@@ -3,7 +3,6 @@ import assurancesMSC from "../assuranceMSC.json";
 import assurancesCosta from "../components/assuranceCosta.json";
 import assurancesNotre from "../components/assuanceAB.json";
 
-
 const Assurances = () => {
   const [assurance, setAssurance] = useState({});
   const [selectedCompany, setSelectedCompany] = useState("");
@@ -15,12 +14,6 @@ const Assurances = () => {
       setAssurance(assurancesCosta);
     } else if (selectedCompany === "Notre") {
       setAssurance(assurancesNotre);
-    } else if (selectedCompany === "RCCL") {
-      setAssurance(assurancesRCCL);
-    } else if (selectedCompany === "Ponant") {
-      setAssurance(assurancesPonant);
-    } else if (selectedCompany === "Celestyal") {
-      setAssurance(assurancesCelestyal);
     } else {
       setAssurance({});
     }
@@ -40,9 +33,6 @@ const Assurances = () => {
           <option value="MSC">MSC</option>
           <option value="Costa">Costa</option>
           <option value="Notre">Présence assistance tourisme</option>
-          <option value="RCCL">RCCL</option>  {/* RCCL Option */}
-          <option value="Ponant">Ponant</option>  {/* Ponant Option */}
-          <option value="Celestyal">Celestyal</option>  {/* Celestyal Option */}
         </select>
       </div>
 
