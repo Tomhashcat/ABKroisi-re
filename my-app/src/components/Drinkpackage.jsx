@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import drinkPackagesMSC from "../drink_packages_MSC.json"; // Forfaits MSC
 import drinkPackagesCosta from "../drink_Packages_Costa.json"; // Forfaits Costa
-import drinkPackagesRCCL from "../drink_packages_RCCL.json"; // Forfaits RCCL
-import drinkPackagesPonant from "../drink_packages_Ponant.json"; // Forfaits Ponant
-import drinkPackagesCelestyal from "../drink_packages_Celestyal.json"; // Forfaits Celestyal
+import drinkPackagesRCCL from "../drink_Packages_RCCL.json"
+import drinkPackagesPonant from "../drink_Packages_Ponan.json"; // Forfaits Ponant
+import drinkPackagesCelestyal from "../drink_Pacjages_celestyal.json"; // Forfaits Celestyal
 
 const DrinkPackages = () => {
   const [packages, setPackages] = useState({});
