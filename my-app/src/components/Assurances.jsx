@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import assurancesMSC from "../assuranceMSC.json";
 import assurancesCosta from "../components/assuranceCosta.json";
 import assurancesNotre from "../components/assuanceAB.json";
+import assurancesRCCL from "../components/assuranceRCCL.json";  // Import RCCL
+import assurancesPonant from "../components/assurancePonant.json";  // Import Ponant
+import assurancesCelestyal from "../components/assuranceCelestyal.json";  // Import Celestyal
 
 const Assurances = () => {
   const [assurance, setAssurance] = useState({});
@@ -14,6 +17,12 @@ const Assurances = () => {
       setAssurance(assurancesCosta);
     } else if (selectedCompany === "Notre") {
       setAssurance(assurancesNotre);
+    } else if (selectedCompany === "RCCL") {
+      setAssurance(assurancesRCCL);
+    } else if (selectedCompany === "Ponant") {
+      setAssurance(assurancesPonant);
+    } else if (selectedCompany === "Celestyal") {
+      setAssurance(assurancesCelestyal);
     } else {
       setAssurance({});
     }
@@ -24,7 +33,6 @@ const Assurances = () => {
       <h1>Assurances</h1>
 
       <div className="select-company">
-    
         <select
           id="company-select"
           onChange={(e) => setSelectedCompany(e.target.value)}
@@ -34,6 +42,9 @@ const Assurances = () => {
           <option value="MSC">MSC</option>
           <option value="Costa">Costa</option>
           <option value="Notre">Présence assistance tourisme</option>
+          <option value="RCCL">RCCL</option>  {/* RCCL Option */}
+          <option value="Ponant">Ponant</option>  {/* Ponant Option */}
+          <option value="Celestyal">Celestyal</option>  {/* Celestyal Option */}
         </select>
       </div>
 
