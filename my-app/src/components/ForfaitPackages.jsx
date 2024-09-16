@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import ambianceMSC from "../ambianceMSC.json";
 import ambianceCosta from "../ambianceCosta.json";
-import ambianceRCCL from "../ambianceRCCL.json"; // Importer RCCL
-import ambiancePonant from "../ambiancePonant.json"; // Importer Ponant
-import ambianceCelestyal from "../ambianceCelestyal.json"; // Importer Celestyal
+import ambianceRCCL from "../components/ambiancesRCCL.json"; // Importer RCCL
+import ambiancePonant from "../ambiancesPonan.json"; // Importer Ponant
+import ambianceCelestyal from "../ambiancesCelestyal.json"; // Importer Celestyal
 
 const ForfaitsPackages = () => {
   const [ambiance, setAmbiance] = useState({});

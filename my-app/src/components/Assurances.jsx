@@ -2,9 +2,7 @@ import React, { useState, useEffect } from "react";
 import assurancesMSC from "../assuranceMSC.json";
 import assurancesCosta from "../components/assuranceCosta.json";
 import assurancesNotre from "../components/assuanceAB.json";
-import assurancesRCCL from "../components/assuranceRCCL.json";  // Import RCCL
-import assurancesPonant from "../components/assurancePonant.json";  // Import Ponant
-import assurancesCelestyal from "../components/assuranceCelestyal.json";  // Import Celestyal
+
 
 const Assurances = () => {
   const [assurance, setAssurance] = useState({});

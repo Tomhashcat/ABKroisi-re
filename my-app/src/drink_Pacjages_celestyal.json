@@ -1,0 +1,40 @@
+{
+    "All-Inclusive Drink Package": {
+      "description": "Ce forfait offre une large sélection de boissons alcoolisées et non alcoolisées, disponibles dans tous les bars et restaurants du navire.",
+      "features": [
+        "Boissons alcoolisées illimitées (vins, bières, cocktails)",
+        "Boissons non alcoolisées (sodas, jus de fruits, eau minérale)",
+        "Disponible dans tous les bars et restaurants",
+        "Café et thé inclus"
+      ]
+    },
+    "Non-Alcoholic Beverage Package": {
+      "description": "Le forfait boissons non alcoolisées inclut une variété de sodas, jus, et eaux minérales, parfait pour les passagers ne consommant pas d'alcool.",
+      "features": [
+        "Sodas et jus de fruits illimités",
+        "Eaux plates et gazeuses",
+        "Thé, café et infusions inclus",
+        "Servi dans les bars et restaurants"
+      ]
+    },
+    "Premium Drinks Package": {
+      "description": "Le forfait Premium offre une sélection plus exclusive de boissons alcoolisées haut de gamme, y compris des champagnes, vins fins et spiritueux premium.",
+      "features": [
+        "Sélection de vins et champagnes exclusifs",
+        "Spiritueux haut de gamme",
+        "Boissons servies dans tous les bars et restaurants",
+        "Possibilité de service en cabine"
+      ]
+    },
+    "Wine and Dine Package": {
+      "description": "Ce forfait associe une sélection de vins à vos repas dans les restaurants à bord, pour une expérience gastronomique complète.",
+      "features": [
+        "Sélection de vins assortis aux repas",
+        "Disponible dans tous les restaurants",
+        "Conseils du sommelier inclus",
+        "Accès à des dégustations privées"
+      ]
+    },
+    "link": "https://celestyal.com/gr-en/onboard-experience/"
+  }
+  
