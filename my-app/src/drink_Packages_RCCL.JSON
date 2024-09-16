@@ -1,7 +1,9 @@
 {
+
+      "link": "https://www.royalcaribbean.com/booked/cruise-room-upgrade/package",
     "Deluxe Beverage Package": {
       "description": "Le forfait Deluxe Beverage Package offre une sélection illimitée de boissons alcoolisées et non alcoolisées, comprenant des cocktails, vins, bières, cafés spéciaux et bien plus.",
-      "features": [
+      "inclusions": [
         "Boissons alcoolisées incluses (cocktails, vins, bières)",
         "Boissons non alcoolisées (sodas, cafés spéciaux, thés)",
         "Réductions sur les bouteilles de vin",
@@ -10,7 +12,7 @@
     },
     "Refreshment Package": {
       "description": "Le forfait Refreshment Package est parfait pour ceux qui préfèrent les boissons non alcoolisées. Il inclut des sodas, cafés, thés et jus de fruits illimités.",
-      "features": [
+      "inclusions": [
         "Boissons non alcoolisées incluses (sodas, jus de fruits, cafés spéciaux, thés)",
         "Eau plate et gazeuse illimitée",
         "Cocktails sans alcool inclus",
@@ -19,7 +21,7 @@
     },
     "Soda Package": {
       "description": "Le forfait Soda Package vous permet de profiter de sodas illimités tout au long de votre croisière. Disponible avec des distributeurs automatiques et aux bars.",
-      "features": [
+      "inclusions": [
         "Sodas illimités",
         "Accès aux distributeurs automatiques de sodas",
         "Servi dans les bars et restaurants",
@@ -28,7 +30,7 @@
     },
     "Wi-Fi Package (VOOM)": {
       "description": "Le forfait Wi-Fi VOOM offre la connexion internet la plus rapide en mer, vous permettant de rester connecté avec vos proches et de partager votre expérience en direct.",
-      "features": [
+      "inclusions": [
         "Connexion Internet rapide",
         "Accès illimité au Wi-Fi à bord",
         "Compatible avec tous les appareils",
@@ -37,13 +39,12 @@
     },
     "Shore Excursion Packages": {
       "description": "Ce forfait offre des réductions et un accès prioritaire aux excursions à terre, vous permettant de découvrir chaque destination de manière exclusive et organisée.",
-      "features": [
+      "inclusions": [
         "Accès à une large gamme d'excursions",
         "Réductions sur les excursions sélectionnées",
         "Accès prioritaire aux activités",
         "Excursions guidées par des experts"
       ]
-    },
-    "link": "https://www.royalcaribbean.com/booked/cruise-room-upgrade/package"
+    }
   }
   

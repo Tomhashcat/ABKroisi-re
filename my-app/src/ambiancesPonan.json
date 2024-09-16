@@ -1,7 +1,7 @@
 {
     "Prestige Stateroom": {
       "description": "La cabine Prestige Stateroom de Ponant offre une expérience de luxe avec une vue imprenable sur l'océan grâce à un balcon privé, idéale pour une croisière élégante et confortable.",
-      "features": [
+      "inclusions": [
         "Balcon privé avec vue sur l'océan",
         "Accès à un service de chambre 24h/24",
         "Produits de toilette de luxe",
@@ -10,7 +10,7 @@
     },
     "Deluxe Suite": {
       "description": "La suite Deluxe de Ponant propose un espace de vie luxueux avec une grande terrasse privée et des prestations haut de gamme, parfait pour ceux qui souhaitent un confort supplémentaire.",
-      "features": [
+      "inclusions": [
         "Terrasse privée spacieuse",
         "Service de majordome",
         "Salle de bain en marbre",
@@ -19,7 +19,7 @@
     },
     "Owner's Suite": {
       "description": "L'Owner's Suite est la suite la plus prestigieuse de Ponant, offrant une vue panoramique, des espaces généreux et un service personnalisé, pour une croisière vraiment exclusive.",
-      "features": [
+      "inclusions": [
         "Vue panoramique sur l'océan",
         "Espace salon séparé",
         "Service de majordome exclusif",
@@ -28,7 +28,7 @@
     },
     "Expedition Cabin": {
       "description": "La cabine Expedition est conçue pour les aventuriers en quête de découverte, offrant un confort moderne tout en étant optimisée pour des croisières d'expédition vers des destinations uniques.",
-      "features": [
+      "inclusions": [
         "Fenêtres avec vue extérieure",
         "Espace de rangement optimisé",
         "Accès direct aux ponts d'observation",

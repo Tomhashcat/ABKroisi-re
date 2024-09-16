@@ -1,7 +1,7 @@
 {
     "All-Inclusive Drink Package": {
       "description": "Ce forfait offre une large sélection de boissons alcoolisées et non alcoolisées, disponibles dans tous les bars et restaurants du navire.",
-      "features": [
+      "inclusions": [
         "Boissons alcoolisées illimitées (vins, bières, cocktails)",
         "Boissons non alcoolisées (sodas, jus de fruits, eau minérale)",
         "Disponible dans tous les bars et restaurants",
@@ -10,7 +10,7 @@
     },
     "Non-Alcoholic Beverage Package": {
       "description": "Le forfait boissons non alcoolisées inclut une variété de sodas, jus, et eaux minérales, parfait pour les passagers ne consommant pas d'alcool.",
-      "features": [
+      "inclusions": [
         "Sodas et jus de fruits illimités",
         "Eaux plates et gazeuses",
         "Thé, café et infusions inclus",
@@ -19,7 +19,7 @@
     },
     "Premium Drinks Package": {
       "description": "Le forfait Premium offre une sélection plus exclusive de boissons alcoolisées haut de gamme, y compris des champagnes, vins fins et spiritueux premium.",
-      "features": [
+      "inclusions": [
         "Sélection de vins et champagnes exclusifs",
         "Spiritueux haut de gamme",
         "Boissons servies dans tous les bars et restaurants",
@@ -28,7 +28,7 @@
     },
     "Wine and Dine Package": {
       "description": "Ce forfait associe une sélection de vins à vos repas dans les restaurants à bord, pour une expérience gastronomique complète.",
-      "features": [
+      "inclusions": [
         "Sélection de vins assortis aux repas",
         "Disponible dans tous les restaurants",
         "Conseils du sommelier inclus",

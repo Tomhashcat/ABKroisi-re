@@ -1,7 +1,7 @@
 {
     "Interior Cabin": {
       "description": "La cabine intérieure de Celestyal offre un hébergement abordable, parfait pour les voyageurs qui passent le plus clair de leur temps à explorer le navire et les destinations.",
-      "features": [
+      "inclusions": [
         "Cabine sans fenêtre",
         "Lit double ou deux lits simples",
         "Salle de bain privée avec douche",
@@ -10,7 +10,7 @@
     },
     "Ocean View Cabin": {
       "description": "La cabine avec vue sur l'océan propose une fenêtre ou un hublot pour apprécier les paysages marins pendant la croisière, avec des prestations confortables.",
-      "features": [
+      "inclusions": [
         "Fenêtre avec vue sur l'océan",
         "Lit double ou deux lits simples",
         "Salle de bain privée",
@@ -19,7 +19,7 @@
     },
     "Balcony Cabin": {
       "description": "La cabine avec balcon de Celestyal vous permet de profiter d'une vue imprenable sur la mer depuis votre propre espace privé.",
-      "features": [
+      "inclusions": [
         "Balcon privé avec vue sur la mer",
         "Coin salon privé",
         "Lit double ou deux lits simples",
@@ -28,7 +28,7 @@
     },
     "Suite": {
       "description": "La suite de Celestyal offre un hébergement spacieux et luxueux, avec des services VIP et des prestations haut de gamme pour une croisière exclusive.",
-      "features": [
+      "inclusions": [
         "Espace de vie séparé",
         "Balcon ou terrasse privée",
         "Service de majordome disponible",
