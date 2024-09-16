@@ -1,0 +1,45 @@
+{
+      "link": "https://www.royalcaribbean.com/cruise-rooms",
+    "Interior": {
+      "description": "La formule Interior est parfaite pour les voyageurs recherchant un hébergement abordable tout en profitant des installations et divertissements exceptionnels à bord.",
+      "features": [
+        "Cabine standard sans vue",
+        "Accès aux restaurants principaux",
+        "Divertissements à bord",
+        "Salle de fitness",
+        "Accès aux piscines"
+      ]
+    },
+    "Ocean View": {
+      "description": "La formule Ocean View offre une cabine avec vue sur la mer, idéale pour apprécier les paysages marins tout en profitant des services de base de Royal Caribbean.",
+      "features": [
+        "Cabine avec vue sur la mer",
+        "Accès aux restaurants principaux",
+        "Divertissements à bord",
+        "Piscines et jacuzzis",
+        "Service de cabine quotidien"
+      ]
+    },
+    "Balcony": {
+      "description": "La formule Balcony vous permet de profiter d'une cabine avec balcon privé, offrant une vue imprenable sur l'océan et des prestations améliorées.",
+      "features": [
+        "Cabine avec balcon privé",
+        "Accès prioritaire aux restaurants",
+        "Service de cabine quotidien",
+        "Accès aux zones réservées",
+        "Priorité pour les excursions"
+      ]
+    },
+    "Suite": {
+      "description": "La formule Suite propose des hébergements spacieux, un service VIP, et de nombreux avantages exclusifs pour une expérience haut de gamme.",
+      "features": [
+        "Suite spacieuse",
+        "Service de conciergerie",
+        "Accès prioritaire aux restaurants et zones VIP",
+        "Boissons incluses",
+        "Transferts privés disponibles"
+      ]
+    }
+  
+  }
+  

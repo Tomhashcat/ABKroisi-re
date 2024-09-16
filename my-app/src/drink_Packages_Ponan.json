@@ -1,0 +1,40 @@
+{
+    "Open Bar": {
+      "description": "Le forfait Open Bar de Ponant inclut une sélection de boissons alcoolisées et non alcoolisées servies dans tous les bars et restaurants à bord, sans limite.",
+      "features": [
+        "Boissons alcoolisées incluses (cocktails, vins, bières)",
+        "Boissons non alcoolisées (sodas, jus, eau minérale)",
+        "Disponible dans tous les bars et restaurants",
+        "Thé et café inclus"
+      ]
+    },
+    "Prestige Wine Package": {
+      "description": "Le forfait Prestige Wine Package offre une sélection exclusive de vins fins, soigneusement choisis pour accompagner vos repas gastronomiques à bord.",
+      "features": [
+        "Sélection de vins fins",
+        "Accord parfait avec les repas gastronomiques",
+        "Disponible dans tous les restaurants",
+        "Service de sommelier inclus"
+      ]
+    },
+    "Champagne Package": {
+      "description": "Le forfait Champagne Package est parfait pour ceux qui souhaitent savourer du champagne tout au long de leur croisière, avec une variété de champagnes haut de gamme inclus.",
+      "features": [
+        "Champagne haut de gamme à volonté",
+        "Disponible dans les bars et restaurants",
+        "Possibilité d'être servi en cabine",
+        "Sélection de marques exclusives"
+      ]
+    },
+    "Non-Alcoholic Package": {
+      "description": "Le forfait Non-Alcoholic Package inclut une gamme de boissons non alcoolisées, y compris les jus de fruits, les sodas, les eaux minérales et des cocktails sans alcool.",
+      "features": [
+        "Sodas illimités",
+        "Jus de fruits frais",
+        "Cocktails sans alcool",
+        "Eaux plates et gazeuses incluses"
+      ]
+    },
+    "link": "https://fr.ponant.com/experience/services-a-bord"
+  }
+  
