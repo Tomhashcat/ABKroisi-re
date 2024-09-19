@@ -10,6 +10,8 @@ const ForfaitsPackages = () => {
   const [selectedCompany, setSelectedCompany] = useState("");
 
   useEffect(() => {
+    setAmbiance({});
+    
     switch (selectedCompany) {
       case "MSC":
         setAmbiance(ambianceMSC);
