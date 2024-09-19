@@ -1,0 +1,21 @@
+{
+    "link": "https://www.costacroisieres.fr/nos-croisieres/frais-de-sejour",
+    "Basic": {
+      "description": "Frais de séjour basic avec des services essentiels.",
+      "features": [
+        "Taxe de séjour",
+        "Accès aux infrastructures standard"
+      ],
+      "prix": "90€"
+    },
+    "Luxury": {
+      "description": "Frais de séjour luxury avec des services de luxe et des avantages exclusifs.",
+      "features": [
+        "Taxe de séjour",
+        "Accès aux infrastructures de luxe",
+        "Service de conciergerie"
+      ],
+      "prix": "250€"
+    }
+  }
+  

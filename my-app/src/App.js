@@ -7,11 +7,13 @@ import Header from "./components/Header/Header";
 import DrinkPackages from "./components/Drinkpackage";
 import ForfaitsPackages from "./components/ForfaitPackages";
 import Assurances from "./components/Assurances";
+import FraisSejour from "./components/FraisDeSejour";
+
 function App() {
   return (
     <Router>
       <Header />
-      <DrinkPackages /><ForfaitsPackages /><Assurances />
+      <FraisSejour /><DrinkPackages /><ForfaitsPackages /><Assurances />
       <Routes>
         <Route path="/msc" element={<MSC />} />
         <Route path="/costa" element={<Costa />} />

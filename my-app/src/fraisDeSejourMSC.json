@@ -1,0 +1,22 @@
+{
+    "link": "https://www.msccroisieres.fr/nos-croisieres/frais-de-sejour",
+    "Standard": {
+      "description": "Frais de séjour standard incluant les services de base et les taxes.",
+      "features": [
+        "Taxe de séjour",
+        "Service de base",
+        "Services publics inclus"
+      ],
+      "prix": "100€"
+    },
+    "Premium": {
+      "description": "Frais de séjour premium offrant des avantages supplémentaires.",
+      "features": [
+        "Taxe de séjour",
+        "Services publics inclus",
+        "Accès aux infrastructures premium"
+      ],
+      "prix": "200€"
+    }
+  }
+  
