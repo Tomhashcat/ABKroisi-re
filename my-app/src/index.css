@@ -116,7 +116,18 @@ li {
     font-size: 14px;
   }
 }
+a {
+  color: #007bff; /* Primary blue color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make the text bold */
+  transition: color 0.3s ease, border-bottom 0.3s ease; /* Smooth transition for hover effect */
+  border-bottom: 2px solid transparent; /* Border for a subtle underline effect */
+}
 
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  border-bottom: 2px solid #0056b3; /* Add an underline effect on hover */
+}
 /* Assurance Cards */
 .assurance-card {
   display: flex;

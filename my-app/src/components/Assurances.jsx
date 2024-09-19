@@ -42,20 +42,38 @@ const Assurances = () => {
           {Object.keys(assurance).length > 0 && (
             <div className="assurance-list">
               <h2>Assurances disponibles pour {selectedCompany}</h2>
-              {Object.keys(assurance).map((assuranceName) => (
-                <div key={assuranceName} className="assurance-card">
-                  <h3 className="assurance-title">{assuranceName}</h3>
-                  <p className="assurance-description">
-                    {assurance[assuranceName].description}
-                  </p>
-                  <ul className="assurance-coverage">
-                    {assurance[assuranceName].coverage && assurance[assuranceName].coverage.map((item, index) => (
-                      <li key={index}>{item}</li>
-                    ))}
-                  </ul>
-                  <p className="assurance-prix">{assurance[assuranceName].prix}</p>
+
+              {/* Lien principal vers les assurances de la compagnie */}
+              {assurance.link && (
+                <div className="main-link">
+                  <a
+                    href={assurance.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="view-all-link"
+                  >
+                    Voir notre assurance {selectedCompany}
+                  </a>
                 </div>
-              ))}
+              )}
+
+              {Object.keys(assurance)
+                .filter((key) => key !== "link") // Filtrer la clé "link" pour afficher uniquement les assurances
+                .map((assuranceName) => (
+                  <div key={assuranceName} className="assurance-card">
+                    <h3 className="assurance-title">{assuranceName}</h3>
+                    <p className="assurance-description">
+                      {assurance[assuranceName].description}
+                    </p>
+                    <ul className="assurance-coverage">
+                      {assurance[assuranceName].coverage &&
+                        assurance[assuranceName].coverage.map((item, index) => (
+                          <li key={index}>{item}</li>
+                        ))}
+                    </ul>
+                    <p className="assurance-prix">{assurance[assuranceName].prix}</p>
+                  </div>
+                ))}
             </div>
           )}
         </div>
